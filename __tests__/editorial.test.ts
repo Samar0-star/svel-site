@@ -19,7 +19,7 @@ const BANNED_PATTERNS = [
   /\bVPC\b/i,
 ];
 
-describe("ULTRON Editorial and Brand Verification Tests", () => {
+describe("SVEL Editorial and Brand Verification Tests", () => {
   const baseDir = path.resolve(__dirname, "..");
   const srcDir = path.join(baseDir, "src");
 
@@ -57,7 +57,7 @@ describe("ULTRON Editorial and Brand Verification Tests", () => {
     const layoutPath = path.join(srcDir, "app", "layout.tsx");
     const content = fs.readFileSync(layoutPath, "utf-8");
     expect(
-      content.includes('title: "ULTRON — We Prove Which Science is Real"')
+      content.includes('title: "SVEL — We Prove Which Science is Real"')
     ).toBe(true);
     expect(
       content.includes(

@@ -13,11 +13,11 @@ export function HelixVisual() {
         aria-hidden="true"
       />
 
-      {/* Custom ULTRON DNA Holographic Structure - 100% Transparent PNG */}
+      {/* Custom SVEL DNA Holographic Structure - 100% Transparent PNG */}
       <div className="relative w-full h-full flex items-center justify-center">
         <img
-          src={`${basePath}/ultron-dna-hero.png`}
-          alt="ULTRON 3D Double Helix Molecular Verification"
+          src={`${basePath}/svel-dna-hero.png`}
+          alt="SVEL 3D Double Helix Molecular Verification"
           className="w-full h-full object-contain object-center scale-[1.3] lg:scale-[1.48] drop-shadow-[0_0_60px_rgba(37,99,235,0.35)] transition-transform duration-1000"
           loading="eager"
         />

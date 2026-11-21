@@ -273,7 +273,7 @@ export function DiscoveryFilterDemo() {
                 >
                   <div className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-[#059669]/20 border border-[#059669]/30 text-[#34D399] font-mono text-[10px] uppercase tracking-wider mb-2.5">
                     <Check className="w-3 h-3" />
-                    <span>Ready for Laboratory Trial</span>
+                    <span>Survived all challenges · Ready for the lab</span>
                   </div>
                   <h4 className="text-white font-medium text-[15px] leading-snug mb-2">
                     {survivor.title}

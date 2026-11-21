@@ -115,7 +115,7 @@ export function DemoModal({ isOpen, onClose }: DemoModalProps) {
           className="fixed inset-0 z-50 flex items-center justify-center p-4 sm:p-6"
           role="dialog"
           aria-modal="true"
-          aria-label="ULTRON 90-Second Verification Walkthrough"
+          aria-label="SVEL 90-Second Verification Walkthrough"
         >
           {/* Backdrop */}
           <motion.div
@@ -141,7 +141,7 @@ export function DemoModal({ isOpen, onClose }: DemoModalProps) {
                 <span className="w-1.5 h-1.5 rounded-full bg-[#E11D48]" />
                 <span className="w-1.5 h-1.5 rounded-full bg-[#2563EB]" />
                 <span className="font-mono text-[11px] tracking-eyebrow uppercase text-[#A1A5B0]">
-                  ULTRON / 90-SEC VERIFICATION WALKTHROUGH
+                  SVEL / 90-SEC VERIFICATION WALKTHROUGH
                 </span>
               </div>
               <button

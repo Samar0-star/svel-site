@@ -58,7 +58,7 @@ export default function Home() {
               <p className="text-[18px] sm:text-[20px] leading-[1.6] text-[#A1A5B0] font-normal max-w-[48ch] mb-8">
                 Science isn&apos;t slow because we lack ideas. It&apos;s slow
                 because chasing wrong ones costs years and millions of dollars.
-                ULTRON is an autonomous scientist that challenges its own
+                SVEL is an autonomous scientist that challenges its own
                 ideas—until only the truth survives.
               </p>
 
@@ -134,11 +134,11 @@ export default function Home() {
                 </div>
               </div>
 
-              {/* Card 2: ULTRON */}
+              {/* Card 2: SVEL */}
               <div className="p-8 rounded-2xl bg-white dark:bg-white/[0.08] border border-hairline dark:border-white/15 shadow-sm flex flex-col justify-between min-h-[200px]">
                 <div>
                   <span className="font-mono text-[11px] uppercase tracking-wider text-[#2563EB] dark:text-[#38BDF8] font-medium block mb-2">
-                    ULTRON
+                    SVEL
                   </span>
                   <h3 className="text-[17px] font-medium text-ink-primary dark:text-white">
                     Generates ideas, tries to break every single one, and only
@@ -313,7 +313,7 @@ export default function Home() {
                   Built to ride the wave.
                 </h3>
                 <p className="text-[16px] leading-[1.6] text-ink-muted dark:text-white/60">
-                  Every new frontier AI model makes ULTRON faster and
+                  Every new frontier AI model makes SVEL faster and
                   cheaper—without ever replacing the need to prove an answer is
                   true.
                 </p>
@@ -326,7 +326,7 @@ export default function Home() {
                 </h3>
                 <p className="text-[16px] leading-[1.6] text-ink-muted dark:text-white/60">
                   What takes a research team six months of trial and error,
-                  ULTRON narrows down to the highest-conviction path in an
+                  SVEL narrows down to the highest-conviction path in an
                   afternoon.
                 </p>
               </div>

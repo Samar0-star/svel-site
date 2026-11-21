@@ -43,7 +43,7 @@ export function Footer() {
         },
         body: JSON.stringify({
           email: cleanEmail,
-          _subject: `New ULTRON Demo Request from ${cleanEmail}`,
+          _subject: `New SVEL Demo Request from ${cleanEmail}`,
           message: `Investor / Visitor Demo Request: ${cleanEmail}`,
         }),
       }).catch(() => {});
@@ -152,17 +152,17 @@ export function Footer() {
 
         {/* Footer Bar */}
         <div className="pt-12 border-t border-white/10 flex flex-col sm:flex-row items-center justify-between gap-4 text-[13px] text-[#A1A5B0]">
-          {/* Left: ULTRON */}
+          {/* Left: SVEL */}
           <div className="flex items-center gap-2.5">
-            <span className="text-white font-medium tracking-tight">ULTRON</span>
+            <span className="text-white font-medium tracking-tight">SVEL</span>
             <span className="text-white/20">·</span>
-            <span className="text-white/60">The Scientific Verification Layer</span>
+            <span className="text-white/60">Scientific Verification Engine Layer</span>
           </div>
 
           {/* Right: GitHub · Contact */}
           <div className="flex items-center gap-6">
             <a
-              href="https://github.com/Samar0-star/ULTRON"
+              href="https://github.com/Samar0-star/SVEL"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-white transition-colors"

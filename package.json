@@ -1,14 +1,13 @@
 {
-  "name": "ultron-site",
+  "name": "svel-site",
   "version": "1.0.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "test": "node --test tests/*.test.mjs",
+    "test": "jest && node --test tests/*.test.mjs",
     "start": "next start",
-    "lint": "next lint",
-    "test": "jest"
+    "lint": "next lint"
   },
   "dependencies": {
     "clsx": "^2.1.1",

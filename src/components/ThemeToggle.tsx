@@ -9,7 +9,7 @@ export function ThemeToggle() {
 
   useEffect(() => {
     setMounted(true);
-    const stored = localStorage.getItem("ultron-theme") as "light" | "dark" | null;
+    const stored = localStorage.getItem("svel-theme") as "light" | "dark" | null;
     const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
     const initial = stored || (prefersDark ? "dark" : "light");
     setTheme(initial);
@@ -23,7 +23,7 @@ export function ThemeToggle() {
   const toggleTheme = () => {
     const next = theme === "light" ? "dark" : "light";
     setTheme(next);
-    localStorage.setItem("ultron-theme", next);
+    localStorage.setItem("svel-theme", next);
     if (next === "dark") {
       document.documentElement.classList.add("dark");
     } else {

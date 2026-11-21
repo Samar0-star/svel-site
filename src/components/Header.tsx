@@ -27,7 +27,7 @@ export function Header({ onOpenContact }: HeaderProps) {
   return (
     <header className="sticky top-0 z-50 w-full backdrop-blur-md bg-[#FAFAF8]/85 dark:bg-[#0B0C0E]/85 border-b border-hairline dark:border-white/10 transition-colors">
       <div className="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
-        {/* Left: Minimalist ULTRON Wordmark + Crisp Red-and-Blue Twin-Dot Emblem */}
+        {/* Left: Minimalist SVEL Wordmark + Crisp Red-and-Blue Twin-Dot Emblem */}
         <a
           href="#"
           onClick={(e) => {
@@ -35,10 +35,10 @@ export function Header({ onOpenContact }: HeaderProps) {
             window.scrollTo({ top: 0, behavior: "smooth" });
           }}
           className="flex items-center gap-2 group focus:outline-none"
-          aria-label="ULTRON Home"
+          aria-label="SVEL Home"
         >
           <span className="font-sans font-medium text-[16px] tracking-tight text-ink-primary dark:text-white">
-            ULTRON
+            SVEL
           </span>
           <span className="inline-flex items-center gap-1" aria-hidden="true">
             <span className="w-1.5 h-1.5 rounded-full bg-[#2563EB] transition-transform group-hover:scale-110" />

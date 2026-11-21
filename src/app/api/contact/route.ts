@@ -41,8 +41,8 @@ export async function POST(request: Request) {
         },
         body: JSON.stringify({
           email: email,
-          _subject: `New ULTRON Demo Request from ${email}`,
-          message: `A new demo request has been submitted on ULTRON website.\n\nVisitor Email: ${email}\nTime: ${new Date().toLocaleString()}`,
+          _subject: `New SVEL Demo Request from ${email}`,
+          message: `A new demo request has been submitted on SVEL website.\n\nVisitor Email: ${email}\nTime: ${new Date().toLocaleString()}`,
           _template: "table",
         }),
       });

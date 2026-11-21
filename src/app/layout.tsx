@@ -3,7 +3,7 @@ import "./globals.css";
 import { SmoothScroll } from "@/components/SmoothScroll";
 
 export const metadata: Metadata = {
-  title: "ULTRON — We Prove Which Science is Real",
+  title: "SVEL — We Prove Which Science is Real",
   description: "The verification layer for scientific discovery.",
 };
 
